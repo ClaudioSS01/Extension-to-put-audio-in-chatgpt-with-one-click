@@ -1,0 +1,22 @@
+<div id="content">
+    Conteúdo da div
+  </div>
+  
+  <button id="btn">Transformar em imagem</button>
+  
+  <script src="html2img.js"></script>
+  
+  <script>
+    const btn = document.getElementById('btn');
+    btn.addEventListener('click', function() {
+      const content = document.getElementById('content');
+      html2canvas(content).then(canvas => {
+        const data = canvas.toDataURL();
+        const link = document.createElement('a');
+        link.download = 'image.png';
+        link.href = data;
+        link.click();
+      });
+    });
+  </script>
+  

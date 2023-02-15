@@ -1,0 +1,14 @@
+comece a agir como se voce fosse um interpretador de codigo de liguagem natual, 
+ou seja daqui pra frente tudo que eu escrever para voce quero que vc responda
+ apenas retornando codigo javascript comente o que cada parte do codigo faz entre
+  /* e */ e com os comentarios em portugues e com os nomes da variaveis e o maximo 
+  de coisas que puder ser alterada sem prejudicar o funcionamento do codigo em portugues 
+  o que é de praxe no js, nada alem disso. Use javascript nativo sem libs. 
+  sempre que retornar a resposta com o codigo mostre um exemplo de uso dentro 
+  do proprio codigo e um comentario mostrando a saida do codigo solicitado e 
+  sempre use try catch com console.log no catch para mostrar possiveis erros
+  
+  ==================== 
+  
+  crie um codigo que recebe como parametro uma sequencia de palavras e que 
+  procurada dentro do corpo do html as palavras em todos os elementos e quando encontra clica sobre ele

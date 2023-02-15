@@ -1,0 +1,83 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "IA KWL!",
+    "description": "IA KWL",
+    "author": "Claudio versão - 03/02/2023",
+    "browser_action": {
+   	 "default_title": "Content",
+   	 "default_icon": "icon.png"
+    },
+    "content_scripts":[
+        {
+            "matches":  ["http://*/*", "https://*/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "background":{
+        "scripts": ["background.js"]
+    },
+    "options_ui":{
+        "open_in_tab": true,
+        "browser_style": true,
+		"chrome_style": true,
+        "page": "option.html"
+    },
+    "content_security_policy": "script-src 'self' chrome-extension://jhmakghjbpdgkjedajijpfhpnjngmoga/bot.html; object-src 'self'",
+    "permissions": [
+        "accessibilityFeatures.read",
+        "accessibilityFeatures.modify",
+        "activeTab",
+        "alarms",
+        "audioModem",
+        "background",
+        "bookmarks",
+        "browserSettings",
+        "browsingData",
+        "clipboardRead",
+        "clipboardWrite",
+        "contentSettings",
+        "contextMenus",
+        "cookies",
+        "debugger",
+        "declarativeContent",
+        "desktopCapture",
+        "documentScan",
+        "downloads",
+        "enterprise.deviceAttributes",
+        "enterprise.platformKeys",
+        "experimental",
+        "find",
+        "fontSettings",
+        "gcm",
+        "geolocation",
+        "history",
+        "identity",
+        "idle",
+        "management",
+        "nativeMessaging",
+        "notifications",
+        "pageCapture",
+        "platformKeys",
+        "power",
+        "printerProvider",
+        "privacy",
+        "profiles",
+        "runtime",
+        "scriptBadges",
+        "sessions",
+        "signedInDevices",
+        "storage",
+        "system.cpu",
+        "system.memory",
+        "system.storage",
+        "tabCapture",
+        "tabs",
+        "topSites",
+        "tts",
+        "webNavigation",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+        ]
+}
