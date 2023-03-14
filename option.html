@@ -30,16 +30,7 @@
                     class="fa fa-bars"></i></a>
             <a href="#" class="w3-bar-item w3-button w3-padding-large">INICIO</a>
             <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOBRE</a>
-            <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">APRENDER</a>
             <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATOS</a>
-            <div class="w3-dropdown-hover w3-hide-small">
-                <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
-                <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                    <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-                    <a href="#" class="w3-bar-item w3-button">Extras</a>
-                    <a href="#" class="w3-bar-item w3-button">Media</a>
-                </div>
-            </div>
             <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i
                     class="fa fa-search"></i></a>
         </div>
@@ -56,42 +47,31 @@
     <!-- Page content -->
     <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
-        <!-- Automatic Slideshow Images -->
-        <div class="mySlides w3-display-container w3-center">
-            <img src="/w3images/la.jpg" style="width:100%">
-            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                <h3>Los Angeles</h3>
-                <p><b>We had the best time playing at Venice Beach!</b></p>
-            </div>
-        </div>
-        <div class="mySlides w3-display-container w3-center">
-            <img src="/w3images/ny.jpg" style="width:100%">
-            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                <h3>New York</h3>
-                <p><b>The atmosphere in New York is lorem ipsum.</b></p>
-            </div>
-        </div>
-        <div class="mySlides w3-display-container w3-center">
-            <img src="/w3images/chicago.jpg" style="width:100%">
-            <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                <h3>Chicago</h3>
-                <p><b>Thank you, Chicago - A night we won't forget.</b></p>
-            </div>
-        </div>
+
 
         <!-- The Band Section -->
         <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-            <h2 class="w3-wide">I.A. KWL.JS</h2>
+            <h2 class="w3-wide">Extension to put audio in chatgpt with one click</h2>
+            <p class="w3-opacity"><i>Created by Claudio S. S.</i></p>
+            <p class="w3-justify">
+                Introducing a new extension that transforms written text into audio with just one click! With this extension, you can sit back and relax while the text is read out loud to you.
+
+This extension is perfect for anyone who wants to save time and energy while reading long articles, blog posts, or even chat conversations. Instead of straining your eyes and sitting in front of a screen for hours, you can simply click the button and listen to the text while doing other things.
+
+Whether you're a busy professional who needs to stay up-to-date with industry news, a student trying to keep up with course readings, or simply someone who enjoys listening to content, this extension is a must-have.
+
+So why wait? Download the extension today and experience the convenience and efficiency of having written text transformed into audio with just one click!
+            </p>
+            <h2 class="w3-wide">Extensão que coloca audio no Chatgpt com um clique</h2>
             <p class="w3-opacity"><i>Criada por Claudio S. S.</i></p>
             <p class="w3-justify">
+                Apresentamos uma nova extensão que transforma textos escritos em áudio com apenas um clique! Com essa extensão, você pode relaxar enquanto o texto é lido em voz alta para você.
 
-                A ideia de uma I.A. que rodasse no navegador nasceu na verdade de uma necessidade. Eu precisa muito de
-                ajuda para programar, quando meu veio a ideia "por que eu não crio uma I.A para me ajudar a programar?",
-                Eu ja tinha criado minha propria mini-biblioteca javascript para agilizar minha programação, então eu
-                usei os conhecimentos de um curso que eu tinha acabado de finalizar sobre Inteligencia artificial na <a
-                    href="https://www.datascienceacademy.com.br/" target="_blank">data science academy</a>
-                Junto com meus conhecimentos em programação e criei a primeira versão da minha I.A.
+Essa extensão é perfeita para qualquer pessoa que queira economizar tempo e energia ao ler artigos extensos, postagens de blog ou até mesmo conversas no chat. Em vez de forçar seus olhos e ficar sentado na frente de uma tela por horas, basta clicar no botão e ouvir o texto enquanto faz outras coisas.
 
+Seja você um profissional ocupado que precisa ficar atualizado com as notícias do setor, um estudante tentando acompanhar a leitura dos trabalhos escolares ou simplesmente alguém que gosta de ouvir conteúdo, esta extensão é indispensável.
+
+Então, por que esperar? Baixe a extensão hoje mesmo e experimente a conveniência e a eficiência de ter textos escritos transformados em áudio com apenas um clique!
             </p>
             <div class="w3-row w3-padding-32">
                 <div class="w3-third">
@@ -291,186 +271,7 @@
             </div>
         </div>
 
-        <!-- The Tour Section -->
-        <div class="w3-black" id="tour">
-            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-                <h2 class="w3-wide w3-center">APRENDER</h2>
-                <p class="w3-opacity w3-center"><i>Gerar codigo de aprendizado da I.A.</i></p><br>
 
-                <ul class="w3-ul w3-border w3-white w3-text-grey">
-                    <li class="w3-padding">
-                        <center>
-                            <div id="comando_de_voz_capiturado">Comando de voz capiturado</div>
-                        </center>
-                        <br>
-                        <center>
-                            <button id="capiturar_comando_de_voz" style="width: 90%;">
-                                CAPITURAR COMANDO DE VOZ
-                            </button>
-                        </center>
-                        <br>
-                    </li>
-                    <li class="w3-padding">
-                        <center>
-                            <br>
-                            ESCREVA ABAIXO AS PALAVRAS GATILHOS E SE FOR MAIS DE UMA SEPARAR POR VIRGULA
-                            <br>
-                            <br>
-                            <input id="comando_escrito" type="text" style="width: 90%;"
-                                placeholder="PALVRAS DE COMANDO SEPARADAS POR VIRGULA SE FOR MAIS DE UMA">
-                        </center>
-                        <br>
-                    </li>
-
-                    <li class="w3-padding">
-                        <center>
-                            <br>
-                            SELECIONE O QUE VAI SER FEITO QUANDO RECONHECER O COMANDO
-                            <br>
-                            <br>
-                            <select style="width: 90%;" name="O QUE A I.A. DEVE FAZER" id="o_que_vai_ser_feito">
-                                <option value="abrir_site">ABRIR SITE</option>
-                                <option value="responder">RESPONDER</option>
-                                <option value="clipboard">CLIPBOARD (RETORNA TEXTO PARA COPIAR E COLAR)</option>
-                                <option value="criar_arquivo">CRIAR ARQUIVO</option>
-                                <option value="executar_javascript">EXECUTAR JAVASCRIPT</option>
-                            </select>
-                            <br>
-                            <br>
-                        </center>
-                    </li>
-                    <li class="w3-padding">
-                        <center>
-                            <br>
-                           ESCREVA AQUI A RESPOSTA OU O QUE A I.A DEVE FAZER
-                            <br>
-                            *OBSERVAÇÃO: SE SELECIONAR A OPÇÃO 'CRIAR ARQUIVO' VOCÊ DEVE
-                            COLOCAR O NOME DO ARQUIVO COM A EXTENSÃO E SEPARAR POR UMA #
-                            E DEPOIS DA # COLOCAR O CONTEUDO. ASSIM:
-                            <br>
-                            'audio.bat # mmsys.cpl'
-                            <br>
-                            <br>
-                            <input id="o_que_a_ia_deve_fazer" type="text" style="width: 90%;"
-                                placeholder="ESCREVA AQUI QUAL A RESPOSTA DA I.A.">
-                        </center>
-                        <br>
-                    </li>
-                    <li class="w3-padding">
-                        <center>
-                            <div id="comando_de_voz_capiturado">Gerar o Codigo de aprendizado</div>
-                        </center>
-                        <br>
-                        <center>
-                      
-                            <button id="gerar_codigo"  style="width: 90%;">
-                                GERAR CODIGO
-                            </button>
-                        </a>
-                        </center>
-                        
-                        <br>
-                    </li>
-                </ul>
-
-
-        <!-- Modal COM CODIGO GERADO -->
-        <script type='module' src="./option.js"></script>
-     
-
-
-        <div id="abrirModal" class="modal">
-          <!-- conteúdo do modal aqui -->
-          <div style="width: 60vmin; height: 60vmin;">
-            <a href="#fechar" title="Fechar" class="fechar">x</a>    
-<div style="color: black;">
-    <p>CODIGO FONTE PARA COLOCAR NO ia.wkl.js abaixo da linha 11.270</p> 
-
-    <div id="codigo_fonte_montado"></div>
-</div>
-        </div>
-        </div>
-        
-        
-        
-        
-        
-        <style>
-        .modal {
-          position: fixed;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          font-family: Arial, Helvetica, sans-serif;
-          background: rgba(0,0,0,0.8);
-          z-index: 99999;
-          opacity:0;
-          -webkit-transition: opacity 400ms ease-in;
-          -moz-transition: opacity 400ms ease-in;
-          transition: opacity 400ms ease-in;
-          pointer-events: none;
-        }
-        
-        .modal:target {
-          opacity: 1;
-          pointer-events: auto;
-        }
-        
-        .modal > div {
-          width: 400px;
-          position: relative;
-          margin: 10% auto;
-          padding: 15px 20px;
-          background: #fff;
-        }
-        
-        .fechar {
-          position: absolute;
-          width: 30px;
-          right: -15px;
-          top: -20px;
-          text-align: center;
-          line-height: 30px;
-          margin-top: 5px;
-          background: #ff4545;
-          border-radius: 50%;
-          font-size: 16px;
-          color: #8d0000;
-        }
-        
-        </style>
-        <!-- The Contact Section -->
-        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-            <h2 class="w3-wide w3-center">CONTATOS</h2>
-            <p class="w3-opacity w3-center"><i>Está gostando? Faça uma doação apoie a causa! Chave PIX celular 11 99495
-                    3116</i></p>
-            <div class="w3-row w3-padding-32">
-                <div class="w3-col m6 w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker" style="width:30px"></i> Mogi das Cruzes, SP<br>
-                    <i class="fa fa-phone" style="width:30px"></i> Cell: +55 11 99495 - 3116<br>
-                    <i class="fa fa-envelope" style="width:30px"> </i> Email: claudio.santos86@yahoo.com.br<br>
-                </div>
-                <div class="w3-col m6">
-                    <form action="/action_page.php" target="_blank">
-                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                            </div>
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-                            </div>
-                        </div>
-                        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-                        <button class="w3-button w3-black w3-section w3-right"
-                            onclick="alert('Em Breve função de envio de email via formulario!')">SEND</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <!-- End Page Content -->
-    </div>
 
     <!-- Image of location/map -->
     <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
